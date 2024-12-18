@@ -86,4 +86,3 @@ messages2 = system_messages + ai_messages + user_messages
 
 response2 = model.invoke(messages2)
 output_dict2 = output_parser.parse(response2.content)
-
